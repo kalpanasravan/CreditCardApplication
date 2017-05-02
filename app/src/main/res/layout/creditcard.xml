@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_weight="1"
+            android:textColor="#FFF"
+            android:text="@string/textView1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_weight="1"
+            android:background="#FFF"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="1"
+            android:text="@string/textView2" android:textColor="#FFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_weight="1"
+            android:inputType="number" android:background="#FFF"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"
+            android:text="@string/textView3" android:textColor="#FFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText3" android:layout_weight="1"
+            android:inputType="number" android:background="#FFF"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="1"
+            android:text="@string/textView4" android:textColor="#FFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText4" android:layout_weight="1"
+            android:inputType="number" android:background="#FFF"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_weight="1"
+            android:text="@string/textView5" android:textColor="#FFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText5" android:layout_weight="1"
+            android:inputType="number" android:background="#FFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_weight="1"
+            android:text="@string/textView6" android:textColor="#FFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/editText6" android:layout_weight="1"
+            android:inputType="number" android:background="#FFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical" android:weightSum="1">
+
+
+
+        <Button
+            android:id="@+id/btnSubmit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttontext1" android:backgroundTint="#FFF" android:textColor="#000"/>
+
+
+
+        <Button
+            android:id="@+id/btnSubmit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSubmit1" android:backgroundTint="#FFF" android:textColor="#000"
+            android:text="@string/buttontext2" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

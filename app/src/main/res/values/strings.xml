@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CreditCardApplication</string>
+
+    <string name="textView1">Enter Card Balance($)</string>
+    <string name="textView2">Enter Yearly Intrest rate(%)</string>
+    <string name="textView3">Enter Minimum Payment($)</string>
+    <string name="textView4">Final card Balance($)</string>
+    <string name="textView5">Months Remaining</string>
+    <string name="textView6">Interest Paid will be($)</string>
+    <string name="buttontext1">COMPUTE</string>
+    <string name="buttontext2">CLEAR</string>
+
+
+</resources>
